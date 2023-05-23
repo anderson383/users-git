@@ -70,29 +70,23 @@ const UserList = () => {
   
   useEffect(() => {
     (async () => {
-      const response = await repository.getUsers(query)
-      setUsers(response)
+      setUsers(await repository.getUsers(query))
     })()
   }, [query])
 
 
   useEffect(() => {
-    if (users) {
-      const mapPromise = users.map(item => (
-        async () => await repository.getUser(item.login)
-      ))
-      Promise.all(mapPromise.map(i => i())).then((values) => {
-        let follow:any = []
-        let labels:any = []
-        values.map((ele:any) => {
-          labels.push(ele.login)
-          follow.push(ele.followers)
-        })
-        setLabels(labels)
-        setFollorwers(follow)
-      })
-    }
-  }, [users])
+    const fetchData = async () => {
+      if (users) {
+        const mapPromise = users.map(item => repository.getUser(item.login));
+        const values = await Promise.all(mapPromise);
+        setLabels(values.map(ele => ele.login));
+        setFollorwers(values.map(ele => ele.followers));
+      }
+    };
+  
+    fetchData();
+  }, [users]);
 
 
   return (
