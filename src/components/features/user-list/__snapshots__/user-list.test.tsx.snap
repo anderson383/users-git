@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in UserList component Should render if no charge list 1`] = `
+<h2>
+  No hay usuarios en base a tu busqueda...
+</h2>
+`;
+
+exports[`Tests in UserList component Should render the component 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <h1>
+      Listado de usuarios
+    </h1>
+    <form>
+      <div
+        class=""
+      >
+        <div
+          class="content"
+        >
+          <button
+            data-testid="search"
+            type="submit"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-magnifying-glass "
+              data-icon="magnifying-glass"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <input
+            class="input inputSearch"
+            name="search"
+            placeholder="Buscar"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </form>
+    <div
+      class="dib"
+    >
+      <canvas
+        height="0"
+        role="img"
+        style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+        width="0"
+      />
+      ;
+    </div>
+    <div
+      class="container_users"
+    >
+      <div
+        class="card_user"
+        data-testid="card_user"
+      >
+        <div
+          class="image"
+        >
+          <img
+            alt=""
+            src="url image"
+          />
+        </div>
+        <div
+          class="info"
+        >
+          <p>
+            test user
+          </p>
+          <span>
+            id-test
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

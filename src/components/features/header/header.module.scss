@@ -1,0 +1,56 @@
+
+.header_container{
+  // background-color: $white;
+  box-shadow: 0 10px 30px rgba(80,71,65,.2);
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  right: 0;
+  min-height: 89px;
+  left: 0;
+  z-index: 2;
+  
+
+  .logo {
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .profile {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+    }
+  }
+
+  .darkInput {
+    // @include media('mobile') {
+    //   display: none;
+    // }
+  }
+}
+
+
+.menu {
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem ;
+  }
+}
+
+.position_menu {
+  right: 0px;
+}

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in Detail component Should render the component 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <h2>
+      Detalle de usuario
+    </h2>
+    <div
+      class="export"
+    >
+      <button>
+        Exportar
+      </button>
+    </div>
+    <div
+      class="card_detail"
+    >
+      <div
+        class="avatar"
+      >
+        <div>
+          <img
+            alt=""
+            src="url image"
+            width="300"
+          />
+        </div>
+        <div
+          class="info"
+        >
+          <b>
+            Pepito xd
+          </b>
+          <p>
+            Twitter: No tiene
+          </p>
+          <p>
+            Followers: No tiene
+          </p>
+        </div>
+      </div>
+      <div
+        class="info_company"
+      >
+        <h2>
+          Información
+        </h2>
+        <p>
+          <b>
+            Company:
+          </b>
+            No tiene
+        </p>
+        <p>
+          <b>
+            Location:
+          </b>
+           Colombia
+        </p>
+        <p>
+          <b>
+            Biografia:
+          </b>
+           biografia
+        </p>
+        <p>
+          <b>
+            Email:
+          </b>
+           No tiene
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in Card User component Should render the component 1`] = `
+<DocumentFragment>
+  <div
+    class="card_user"
+    data-testid="card_user"
+  >
+    <div
+      class="image"
+    >
+      <img
+        alt=""
+        src="url image"
+      />
+    </div>
+    <div
+      class="info"
+    >
+      <p>
+        test user
+      </p>
+      <span>
+        id-test
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

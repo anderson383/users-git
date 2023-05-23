@@ -1,0 +1,28 @@
+
+.card_user {
+  background-color: #fff;
+  box-shadow: 0 10px 30px rgba(80,71,65,.2);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  .image {
+    text-align: center;
+    img {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 100%;
+    }
+  }
+  .info {
+    p {
+      text-transform: uppercase;
+      color: black;
+      font-weight: 500;
+    }
+    span {
+      color: #8f8f8f;
+    }
+  }
+  
+}

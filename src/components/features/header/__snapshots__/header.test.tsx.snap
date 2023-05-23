@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in Header component Should render the component 1`] = `
+<DocumentFragment>
+  <header
+    class="header_container"
+  >
+    <div
+      class="header  container"
+    >
+      <img
+        alt=""
+        data-testid="img_butt"
+        src="/icons/icon-github.svg"
+        width="50"
+      />
+      <nav
+        class="menu"
+      >
+        <h2>
+          Test FrontEnd
+        </h2>
+      </nav>
+    </div>
+  </header>
+</DocumentFragment>
+`;
